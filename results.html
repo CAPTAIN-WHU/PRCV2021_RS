@@ -114,6 +114,7 @@
     </div>
 </header>
 
+
   <!-- Main Content -->
   <div class="container">
 
@@ -130,28 +131,28 @@
 							<thead>
 								<tr>
 									<th></th>
-									<th>Team Name</th>
+									<th>Username</th>
 									<!-- <th>Team Member</th> -->
 									<!-- <th>Institute</th> -->
 									<!-- <th>Description</th> -->
-									<th> mAP</strong> </th>
-									<th>Plane</th>
-									<th>BD</th>
-									<th>Bridge</th>
-									<th>GTF</th>
-									<th>SV</th>
-									<th>LV</th>
-									<th>Ship</th>
-									<th>TC</th>
-									<th>BC</th>
-									<th>ST</th>
-									<th>SBF</th>
-									<th>RA</th>
-									<th>Harbor</th>
-									<th>SP</th>
-									<th>HC</th>
-									<th>CC</th>
-									<th>Date</th>
+									<th> mIOU</strong> </th>
+									<th>OverallAccuracy</th>
+									<th>Created_date</th>
+{#									<th>Bridge</th>#}
+{#									<th>GTF</th>#}
+{#									<th>SV</th>#}
+{#									<th>LV</th>#}
+{#									<th>Ship</th>#}
+{#									<th>TC</th>#}
+{#									<th>BC</th>#}
+{#									<th>ST</th>#}
+{#									<th>SBF</th>#}
+{#									<th>RA</th>#}
+{#									<th>Harbor</th>#}
+{#									<th>SP</th>#}
+{#									<th>HC</th>#}
+{#									<th>CC</th>#}
+{#									<th>Date</th>#}
 								</tr>
 							</thead>
 							<!-- <tfoot>
@@ -165,46 +166,46 @@
 							</tfoot> -->
 						</table>
 
-						<h2>Task2 - Horizontal Leaderboard</h2>
-						<table id="Task2" class="display" style="width:100%">
-							<thead>
-								<tr>
-									<th></th>
-									<th>Team Name</th>
-									<!-- <th>Team Member</th> -->
-									<!-- <th>Institute</th> -->
-									<!-- <th>Description</th> -->
-									<th> mAP</strong> </th>
-									<th>Plane</th>
-									<th>BD</th>
-									<th>Bridge</th>
-									<th>GTF</th>
-									<th>SV</th>
-									<th>LV</th>
-									<th>Ship</th>
-									<th>TC</th>
-									<th>BC</th>
-									<th>ST</th>
-									<th>SBF</th>
-									<th>RA</th>
-									<th>Harbor</th>
-									<th>SP</th>
-									<th>HC</th>
-									<th>CC</th>
-									<th>Date</th>
-									<!-- <th>extn</th> -->
-								</tr>
-							</thead>
-							<!-- <tfoot>
-								<tr>
-									<th></th>
-									<th>Name</th>
-									<th>Position</th>
-									<th>Office</th>
-									<th>extn</th>
-								</tr>
-							</tfoot> -->
-						</table>
+{#						<h2>Task2 - Horizontal Leaderboard</h2>#}
+{#						<table id="Task2" class="display" style="width:100%">#}
+{#							<thead>#}
+{#								<tr>#}
+{#									<th></th>#}
+{#									<th>Team Name</th>#}
+{#									<!-- <th>Team Member</th> -->#}
+{#									<!-- <th>Institute</th> -->#}
+{#									<!-- <th>Description</th> -->#}
+{#									<th> mAP</strong> </th>#}
+{#									<th>Plane</th>#}
+{#									<th>BD</th>#}
+{#									<th>Bridge</th>#}
+{#									<th>GTF</th>#}
+{#									<th>SV</th>#}
+{#									<th>LV</th>#}
+{#									<th>Ship</th>#}
+{#									<th>TC</th>#}
+{#									<th>BC</th>#}
+{#									<th>ST</th>#}
+{#									<th>SBF</th>#}
+{#									<th>RA</th>#}
+{#									<th>Harbor</th>#}
+{#									<th>SP</th>#}
+{#									<th>HC</th>#}
+{#									<th>CC</th>#}
+{#									<th>Date</th>#}
+{#									<!-- <th>extn</th> -->#}
+{#								</tr>#}
+{#							</thead>#}
+{#							<!-- <tfoot>#}
+{#								<tr>#}
+{#									<th></th>#}
+{#									<th>Name</th>#}
+{#									<th>Position</th>#}
+{#									<th>Office</th>#}
+{#									<th>extn</th>#}
+{#								</tr>#}
+{#							</tfoot> -->#}
+{#						</table>#}
 
 					</div>
 				</div>
@@ -284,27 +285,12 @@
 						"data": null,
 						"defaultContent": ''
 					},
-					{ "data": "TeamNames" },
+					{ "data": "Username" },
 					// { "data": "Team Member" },
 					// { "data": "Institute" },
-					{ "data": "mAP" },
-					{ "data": "Plane"},
-					{ "data": "BD" },
-					{ "data": "Bridge"},
-					{ "data": "GTF" },
-					{ "data": "SV"},
-					{ "data": "LV" },
-					{ "data": "Ship"},
-					{ "data": "TC"},
-					{ "data": "BC" },
-					{ "data": "ST"},
-					{ "data": "SBF" },
-					{ "data": "RA"},
-					{ "data": "Harbor" },
-					{ "data": "SP"},
-					{ "data": "HC"},
-					{ "data": "CC"},
-					{ "data": "date"}
+					{ "data": "mIOU" },
+					{ "data": "OverallAccuracy"},				
+					{ "data": "Created_date"}
 				],
 				"order": [[2, 'dsc']]
 			});
@@ -328,57 +314,57 @@
 		});
 
 
-		$(document).ready(function () {
-			var table2 = $('#Task2').DataTable({
-				"ajax": "leaderboards/learderboard2.txt",
-				"columns": [
-					{
-						"className": 'details-control',
-						"orderable": false,
-						"data": null,
-						"defaultContent": ''
-					},
-					{ "data": "TeamNames" },
-					// { "data": "Team Member" },
-					// { "data": "Institute" },
-					{ "data": "mAP" },
-					{ "data": "Plane"},
-					{ "data": "BD" },
-					{ "data": "Bridge"},
-					{ "data": "GTF" },
-					{ "data": "SV"},
-					{ "data": "LV" },
-					{ "data": "Ship"},
-					{ "data": "TC"},
-					{ "data": "BC" },
-					{ "data": "ST"},
-					{ "data": "SBF" },
-					{ "data": "RA"},
-					{ "data": "Harbor" },
-					{ "data": "SP"},
-					{ "data": "HC"},
-					{ "data": "CC"},
-					{ "data": "date"},
-				],
-				"order": [[2, 'dsc']]
-			});
+		{#$(document).ready(function () {#}
+		{#	var table2 = $('#Task2').DataTable({#}
+		{#		"ajax": "leaderboards/learderboard2.txt",#}
+		{#		"columns": [#}
+		{#			{#}
+		{#				"className": 'details-control',#}
+		{#				"orderable": false,#}
+		{#				"data": null,#}
+		{#				"defaultContent": ''#}
+		{#			},#}
+		{#			{ "data": "TeamNames" },#}
+		{#			// { "data": "Team Member" },#}
+		{#			// { "data": "Institute" },#}
+		{#			{ "data": "mAP" },#}
+		{#			{ "data": "Plane"},#}
+		{#			{ "data": "BD" },#}
+		{#			{ "data": "Bridge"},#}
+		{#			{ "data": "GTF" },#}
+		{#			{ "data": "SV"},#}
+		{#			{ "data": "LV" },#}
+		{#			{ "data": "Ship"},#}
+		{#			{ "data": "TC"},#}
+		{#			{ "data": "BC" },#}
+		{#			{ "data": "ST"},#}
+		{#			{ "data": "SBF" },#}
+		{#			{ "data": "RA"},#}
+		{#			{ "data": "Harbor" },#}
+		{#			{ "data": "SP"},#}
+		{#			{ "data": "HC"},#}
+		{#			{ "data": "CC"},#}
+		{#			{ "data": "date"},#}
+		{#		],#}
+		{#		"order": [[2, 'dsc']]#}
+		{#	});#}
 
 			// Add event listener for opening and closing details
-			$('#Task2 tbody').on('click', 'td.details-control', function () {
-				var tr = $(this).closest('tr');
-				var row = table2.row(tr);
-
-				if (row.child.isShown()) {
-					// This row is already open - close it
-					row.child.hide();
-					tr.removeClass('shown');
-				}
-				else {
-					// Open this row
-					row.child(format(row.data())).show();
-					tr.addClass('shown');
-				}
-			});
+			{#$('#Task2 tbody').on('click', 'td.details-control', function () {#}
+			{#	var tr = $(this).closest('tr');#}
+			{#	var row = table2.row(tr);#}
+            {##}
+			{#	if (row.child.isShown()) {#}
+			{#		// This row is already open - close it#}
+			{#		row.child.hide();#}
+			{#		tr.removeClass('shown');#}
+			{#	}#}
+			{#	else {#}
+			{#		// Open this row#}
+			{#		row.child(format(row.data())).show();#}
+			{#		tr.addClass('shown');#}
+			{#	}#}
+			{#});#}
 		});
 
   </script>
