@@ -11,22 +11,22 @@
             "Username": "sinatest3",
             "Created_date": "2021-08-14 11:55:41.754574",
             "Description": "test.zip\r\n19\uff1a54222",
-            "mIOU": 0.9,
-            "OverallAccuracy": 0.8
+            "mIOU": 0.995,
+            "OverallAccuracy": 0.836
         },
         {
             "Username": "sinatest1",
             "Created_date": "2021-08-14 12:18:15.031831",
             "Description": "test222.zip\r\n20:18",
-            "mIOU": 0.6,
-            "OverallAccuracy": 0.85
+            "mIOU": 0.621,
+            "OverallAccuracy": 0.851
         },
         {
             "Username": "sinatest4",
             "Created_date": "2021-08-14 12:30:04.876360",
             "Description": "test222.zip\r\n20:29",
-            "mIOU": 0.3,
-            "OverallAccuracy": 0.7
+            "mIOU": 0.322,
+            "OverallAccuracy": 0.756
         }
     ]
 }
