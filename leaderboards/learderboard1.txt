@@ -4,14 +4,14 @@
             "Username": "sinatest2",
             "Created_date": "2021-08-16 08:10:44.605001",
             "Description": "test222.zip\r\n20:29",
-            "mIOU": 1.0,
-            "OverallAccuracy": 1.0
+            "mIOU": 0.5,
+            "OverallAccuracy": 0.6
         },
         {
             "Username": "sinatest3",
             "Created_date": "2021-08-14 11:55:41.754574",
             "Description": "test.zip\r\n19\uff1a54222",
-            "mIOU": 0.995,
+            "mIOU": 0.5995,
             "OverallAccuracy": 0.836
         },
         {
