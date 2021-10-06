@@ -1,32 +1,67 @@
 {
     "data": [
         {
-            "Username": "sinatest2",
-            "Created_date": "2021-08-16 08:10:44.605001",
-            "Description": "test222.zip\r\n20:29",
-            "mIOU": 0.5,
-            "OverallAccuracy": 0.6
+            "Username": "DYP",
+            "Created_date": "2021-10-06 03:14:35.702648",
+            "Description": "\uff01",
+            "mIOU": 0.866,
+            "OverallAccuracy": 0.948
         },
         {
-            "Username": "sinatest3",
-            "Created_date": "2021-08-14 11:55:41.754574",
-            "Description": "test.zip\r\n19\uff1a54222",
-            "mIOU": 0.5995,
-            "OverallAccuracy": 0.836
+            "Username": "likyoo",
+            "Created_date": "2021-10-06 03:35:01.099798",
+            "Description": "unet \u5355\u6a21",
+            "mIOU": 0.852,
+            "OverallAccuracy": 0.941
         },
         {
-            "Username": "sinatest1",
-            "Created_date": "2021-08-14 12:18:15.031831",
-            "Description": "test222.zip\r\n20:18",
-            "mIOU": 0.621,
-            "OverallAccuracy": 0.851
+            "Username": "2019@zjp",
+            "Created_date": "2021-10-06 02:56:33.988581",
+            "Description": "Siamese-EfficientFPN\uff0c\u7528\u4e8e\u5efa\u7b51\u7269\u53d8\u5316\u68c0\u6d4b",
+            "mIOU": 0.831,
+            "OverallAccuracy": 0.934
         },
         {
-            "Username": "sinatest4",
-            "Created_date": "2021-08-14 12:30:04.876360",
-            "Description": "test222.zip\r\n20:29",
-            "mIOU": 0.322,
-            "OverallAccuracy": 0.756
+            "Username": "huilin16",
+            "Created_date": "2021-10-06 06:20:26.420474",
+            "Description": "\u4f7f\u7528cdnet_p\u7f51\u7edc\u7ed3\u6784\uff0c\u4ee5HRNet_W18\u4f5c\u4e3abackbone\uff0c\u4f7f\u7528psphead\u63d0\u53d6\u53d8\u5316\u7279\u5f81",
+            "mIOU": 0.81,
+            "OverallAccuracy": 0.923
+        },
+        {
+            "Username": "liaocheng",
+            "Created_date": "2021-10-06 02:34:50.609335",
+            "Description": "ceshiji",
+            "mIOU": 0.803,
+            "OverallAccuracy": 0.921
+        },
+        {
+            "Username": "baibw",
+            "Created_date": "2021-10-05 20:39:13.518006",
+            "Description": "1",
+            "mIOU": 0.802,
+            "OverallAccuracy": 0.918
+        },
+        {
+            "Username": "yjbing",
+            "Created_date": "2021-10-06 00:36:32.389148",
+            "Description": "f",
+            "mIOU": 0.782,
+            "OverallAccuracy": 0.908
+        },
+        {
+            "Username": "tianjindaxue",
+            "Created_date": "2021-10-05 17:20:55.435246",
+            "Description": "\u5929\u6d25\u5927\u5b66\u5fae\u7535\u5b50\u5b66\u9662",
+            "mIOU": 0.779,
+            "OverallAccuracy": 0.91
+        },
+        {
+            "Username": "GEOBIA@666",
+            "Created_date": "2021-10-06 05:20:42.252874",
+            "Description": "\u6d4b\u8bd5",
+            "mIOU": 0.754,
+            "OverallAccuracy": 0.895
         }
     ]
 }
