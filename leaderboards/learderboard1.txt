@@ -37,10 +37,10 @@
         },
         {
             "Username": "Leo",
-            "Created_date": "2021-10-06 09:08:44.420452",
-            "Description": "Ensemble resnest200, resnest101, hrnet_w30",
-            "mIOU": 0.825,
-            "OverallAccuracy": 0.93
+            "Created_date": "2021-10-07 13:34:40.203052",
+            "Description": "ResNest200, FCN, DeepLabv3, SENet154, FCN, DeepLabv3",
+            "mIOU": 0.831,
+            "OverallAccuracy": 0.933
         },
         {
             "Username": "huilin16",
@@ -125,6 +125,13 @@
             "Description": "result-submit.zip - v0",
             "mIOU": 0.775,
             "OverallAccuracy": 0.908
+        },
+        {
+            "Username": "Ethan0907",
+            "Created_date": "2021-10-07 13:51:34.908489",
+            "Description": "SDM daspp\u5b6a\u751f\u7f51\u7edc",
+            "mIOU": 0.772,
+            "OverallAccuracy": 0.905
         },
         {
             "Username": "lizheng",
