@@ -8,6 +8,13 @@
             "OverallAccuracy": 0.948
         },
         {
+            "Username": "GoodGoodStudy",
+            "Created_date": "2021-10-06 15:49:18.036689",
+            "Description": "\u7b2c\u4e00\u6b21\u63d0\u4ea4",
+            "mIOU": 0.852,
+            "OverallAccuracy": 0.942
+        },
+        {
             "Username": "likyoo",
             "Created_date": "2021-10-06 03:35:01.099798",
             "Description": "unet \u5355\u6a21",
@@ -15,18 +22,18 @@
             "OverallAccuracy": 0.941
         },
         {
+            "Username": "2019@zjp",
+            "Created_date": "2021-10-06 23:59:57.158826",
+            "Description": "trainval\u8054\u5408\u8bad\u7ec3",
+            "mIOU": 0.844,
+            "OverallAccuracy": 0.939
+        },
+        {
             "Username": "shinian",
             "Created_date": "2021-10-06 08:01:02.128189",
             "Description": "\u672a\u4f7f\u7528\u9a8c\u8bc1\u96c6",
             "mIOU": 0.838,
             "OverallAccuracy": 0.936
-        },
-        {
-            "Username": "2019@zjp",
-            "Created_date": "2021-10-06 02:56:33.988581",
-            "Description": "Siamese-EfficientFPN\uff0c\u7528\u4e8e\u5efa\u7b51\u7269\u53d8\u5316\u68c0\u6d4b",
-            "mIOU": 0.831,
-            "OverallAccuracy": 0.934
         },
         {
             "Username": "Leo",
@@ -57,6 +64,13 @@
             "OverallAccuracy": 0.923
         },
         {
+            "Username": "baibw",
+            "Created_date": "2021-10-06 20:48:20.216703",
+            "Description": "2",
+            "mIOU": 0.805,
+            "OverallAccuracy": 0.92
+        },
+        {
             "Username": "liaocheng",
             "Created_date": "2021-10-06 02:34:50.609335",
             "Description": "ceshiji",
@@ -64,11 +78,11 @@
             "OverallAccuracy": 0.921
         },
         {
-            "Username": "baibw",
-            "Created_date": "2021-10-05 20:39:13.518006",
-            "Description": "1",
-            "mIOU": 0.802,
-            "OverallAccuracy": 0.918
+            "Username": "yaguo",
+            "Created_date": "2021-10-06 15:26:34.257174",
+            "Description": "20211006\u53cc\u6a21\u878d\u5408\uff0b\u589e\u5f3a",
+            "mIOU": 0.792,
+            "OverallAccuracy": 0.916
         },
         {
             "Username": "Ag2S",
@@ -76,6 +90,13 @@
             "Description": "efb5",
             "mIOU": 0.789,
             "OverallAccuracy": 0.912
+        },
+        {
+            "Username": "tianjindaxue",
+            "Created_date": "2021-10-06 16:01:10.694464",
+            "Description": "111",
+            "mIOU": 0.787,
+            "OverallAccuracy": 0.913
         },
         {
             "Username": "wenh",
@@ -92,11 +113,18 @@
             "OverallAccuracy": 0.908
         },
         {
-            "Username": "tianjindaxue",
-            "Created_date": "2021-10-05 17:20:55.435246",
-            "Description": "\u5929\u6d25\u5927\u5b66\u5fae\u7535\u5b50\u5b66\u9662",
+            "Username": "fyk",
+            "Created_date": "2021-10-06 14:57:09.853186",
+            "Description": "\u4f7f\u7528\u5b6a\u751f\u5377\u79ef\u7f51\u7edc\u5206\u522b\u8fdb\u884c\u53cc\u65f6\u76f8\u7279\u5f81\u63d0\u53d6\uff0c\u518d\u5229\u7528\u591a\u5c3a\u5ea6\u76d1\u7763\u65b9\u5f0f\u8fdb\u884c\u6700\u7ec8\u8f93\u51fa",
             "mIOU": 0.779,
-            "OverallAccuracy": 0.91
+            "OverallAccuracy": 0.908
+        },
+        {
+            "Username": "Qbit",
+            "Created_date": "2021-10-06 15:58:18.485641",
+            "Description": "result-submit.zip - v0",
+            "mIOU": 0.775,
+            "OverallAccuracy": 0.908
         },
         {
             "Username": "lizheng",
@@ -132,6 +160,13 @@
             "Description": "\u6570\u636e\uff1a\u53d8\u5316\u524d\u5f71\u50cfI(1)\u3001\u5bf9\u5e94\u53d8\u5316\u540e\u5f71\u50cfI(2)\u548c\u53d8\u5316\u7684\u6807\u7b7e\u5f71\u50cf\u56feL\u3002\r\n\uff08\u4e00\uff09 \u5c06\u7ed9\u5b9a\u5c3a\u5bf8512\u00d7512\u7684\u53cc\u65f6\u76f8\u9065\u611f\u5f71\u50cfI(1)\u548cI(2)\u4f9d\u6b21\u8f93\u5165\u7279\u5f81\u63d0\u53d6\u5668ResNet18\uff0c\u83b7\u5f97\u4e24\u4e2a\u7279\u5f81\u56feX(1)\u548cX(2)\u3002\r\n\uff08\u4e8c\uff09 X(1)\u548cX(2) \u4e24\u4e2a\u7279\u5f81\u56fe\u901a\u8fc7\u91d1\u5b57\u5854\u7a7a\u95f4\u65f6\u5e8f\u6ce8\u610f\u529b\u6a21\u5757\u66f4\u65b0\u4e3a\u4e24\u4e2a\u6ce8\u610f\u529b\u7279\u5f81\u56feZ(1)\u548cZ(2) \u3002\r\n\uff08\u4e09\uff09 \u5c06\u66f4\u65b0\u540e\u7684\u7279\u5f81\u56feZ(1)\u548cZ(2)\u8c03\u6574\u4e3a\u8f93\u5165\u56fe\u50cf\u5c3a\u5bf8512\u00d7512\u540e\uff0c\u8ddd\u79bb\u5ea6\u91cf\u6a21\u5757\u8ba1\u7b97\u4e24\u4e2a\u7279\u5f81\u56fe\u4e2d\u6bcf\u5bf9\u50cf\u7d20\u95f4\u7684\u8ddd\u79bb\u751f\u6210\u8ddd\u79bb\u56feD\u3002\r\n\uff08\u56db\uff09 \u5728\u8bad\u7ec3\u9636\u6bb5\uff0c\u6a21\u578b\u901a\u8fc7\u8ddd\u79bb\u56feD\u548c\u6807\u7b7e\u56feL\u8ba1\u7b97\u635f\u5931\u4f18\u5316\uff0c\u4f7f\u53d8\u5316\u7684\u50cf\u7d20\u5bf9\u8ddd\u79bb\u589e\u5927\uff0c\u4e0d\u53d8\u7684\u50cf\u7d20\u5bf9\u8ddd\u79bb\u51cf\u5c0f\uff1b\u6d4b\u8bd5\u9636\u6bb5\uff0c\u901a\u8fc7\u5bf9\u8ddd\u79bb\u56feD\u8fdb\u884c\u9608\u503c\u5904\u7406\u6765\u751f\u6210\u9884\u6d4b\u6807\u7b7e\u56feP\u3002",
             "mIOU": 0.74,
             "OverallAccuracy": 0.887
+        },
+        {
+            "Username": "NPU_TC",
+            "Created_date": "2021-10-06 15:44:28.001692",
+            "Description": "\u7b2c\u4e00\u6b21\u63d0\u4ea4",
+            "mIOU": 0.724,
+            "OverallAccuracy": 0.882
         },
         {
             "Username": "Tongfei_Liu",
