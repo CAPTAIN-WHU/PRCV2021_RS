@@ -9,10 +9,10 @@
         },
         {
             "Username": "GoodGoodStudy",
-            "Created_date": "2021-10-06 15:49:18.036689",
-            "Description": "\u7b2c\u4e00\u6b21\u63d0\u4ea4",
-            "mIOU": 0.852,
-            "OverallAccuracy": 0.942
+            "Created_date": "2021-10-07 15:41:51.555063",
+            "Description": "\u7b2c\u4e8c\u5929\u63d0\u4ea4",
+            "mIOU": 0.866,
+            "OverallAccuracy": 0.948
         },
         {
             "Username": "likyoo",
@@ -30,9 +30,9 @@
         },
         {
             "Username": "shinian",
-            "Created_date": "2021-10-06 08:01:02.128189",
-            "Description": "\u672a\u4f7f\u7528\u9a8c\u8bc1\u96c6",
-            "mIOU": 0.838,
+            "Created_date": "2021-10-08 01:09:12.853092",
+            "Description": "\u5c31\u8fd9\u6837\u5427",
+            "mIOU": 0.839,
             "OverallAccuracy": 0.936
         },
         {
@@ -166,6 +166,20 @@
             "Created_date": "2021-10-06 05:20:42.252874",
             "Description": "\u6d4b\u8bd5",
             "mIOU": 0.754,
+            "OverallAccuracy": 0.895
+        },
+        {
+            "Username": "youchai",
+            "Created_date": "2021-10-07 15:14:33.777872",
+            "Description": "encoder-decoder+channelAttention",
+            "mIOU": 0.751,
+            "OverallAccuracy": 0.895
+        },
+        {
+            "Username": "jueqian",
+            "Created_date": "2021-10-07 15:10:43.668507",
+            "Description": "\u53cc\u6d41encoder+\u7a20\u5bc6\u8fde\u63a5decoder+Channel Attention\u673a\u5236",
+            "mIOU": 0.751,
             "OverallAccuracy": 0.895
         },
         {
